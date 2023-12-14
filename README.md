@@ -1,7 +1,7 @@
 # Modul-6-Machine-Learning
 
 # *Model*
-menggunakan Model VGG19, melakukan imagegenerator dengan melakukan 10 epoch
+Menggunakan Model VGG19, melakukan Image Generator dengan melakukan 10 epoch
 
 # *VGG19*
 VGG19 adalah model arsitektur Convolutional Neural Network (CNN) yang dikenal luas dalam dunia pengolahan gambar dan kompetisi pengenalan gambar.
