@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    text-align: center;
+    margin: 80px;
+}
+
+h1 {
+    color: #df2727;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.error {
+    color: rgb(170, 255, 0);
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <img src="{{ file_path }}" alt="Uploaded Image">
+    <p>Predicted: {{ pred_label }}</p>
+    <p>Probability: {{ pred_prob }}</p>
+    <p>Time Prediction: {{ pred_time }} seconds</p>
+</body>
+</html>
