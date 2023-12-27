@@ -8,5 +8,5 @@ VGG19 adalah model arsitektur Convolutional Neural Network (CNN) yang dikenal lu
 
 # *Akurasi* 
 akurasi yang di dapatkan adalah 
-\nAccuracy: 100.00%
-\nLoss: 0.0021585780195891857
+Accuracy: 100.00%
+Loss: 0.0021585780195891857
