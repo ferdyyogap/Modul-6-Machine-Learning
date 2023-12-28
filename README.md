@@ -16,8 +16,8 @@ Menggunakan Model VGG19, melakukan Image Generator dengan melakukan 10 epoch
 
 Summary Model VGG19
 
-<img src="images/Model VGG19(1).png" width="800"/>
-<img src="images/Model VGG19(2).png" width="800"/>
+<img src="images/Model VGG19(1).png" width="500"/>
+<img src="images/Model VGG19(2).png" width="500"/>
 
 # *VGG19*
 VGG19 adalah model arsitektur Convolutional Neural Network (CNN) yang dikenal luas dalam dunia pengolahan gambar dan kompetisi pengenalan gambar.
