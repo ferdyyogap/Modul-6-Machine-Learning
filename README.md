@@ -1,5 +1,13 @@
 # Modul-6-Machine-Learning
 
+# Dataset: RPS
+
+- **Rock**
+- **Paper**
+- **Scissors**
+
+<img src="images/rps.png" width="800"/>
+
 # *Model*
 Menggunakan Model VGG19, melakukan Image Generator dengan melakukan 10 epoch
 
