@@ -26,7 +26,7 @@ Menggunakan Model VGG19, melakukan Image Generator dengan melakukan 10 epoch
 
 - Grafik loss dan accuracy pada Model yang sudah terhubung sepenuhnya dengan VGG19
   
-  <img src="images/Train & Validation Graph.png" width="500"/>
+  <img src="images/Train & Validation Graph.png" width="700"/>
 
 # *VGG19*
 VGG19 adalah model arsitektur Convolutional Neural Network (CNN) yang dikenal luas dalam dunia pengolahan gambar dan kompetisi pengenalan gambar.
