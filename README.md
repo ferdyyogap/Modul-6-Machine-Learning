@@ -1,12 +1,15 @@
 # Modul-6-Machine-Learning
 
-# Dataset: RPS
+# Dataset
+Dataset yang digunakan yaitu RPS:
 
 - **Rock**
 - **Paper**
 - **Scissors**
 
 <img src="images/Rps.png" width="800"/>
+
+Splitting dataset: 70% train, 5% test & 25% validation 
 
 # *Model*
 Menggunakan Model VGG19, melakukan Image Generator dengan melakukan 10 epoch
