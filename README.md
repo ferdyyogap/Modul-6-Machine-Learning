@@ -25,6 +25,7 @@ Menggunakan Model VGG19, melakukan Image Generator dengan melakukan 10 epoch
   <img src="images/Model Fully Connected(2).png" width="500"/>
 
 - Grafik loss dan accuracy pada Model yang sudah terhubung sepenuhnya dengan VGG19
+  
   <img src="images/Train & Validation Graph.png" width="500"/>
 
 # *VGG19*
