@@ -2,14 +2,65 @@ body {
     font-family: Georgia, 'Times New Roman', sans-serif;
     text-align: center;
     margin: 80px;
+    background-color: #FEE6A8;
 }
 
-h1 {
-    color: #df2727;
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #FFFBE7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-form {
+.title {
+    color: #00ced1;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #00ced1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.details-section {
     margin-top: 20px;
+}
+
+.details-section p {
+    margin-bottom: 10px;
 }
 
 .error {
