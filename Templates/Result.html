@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Prediction Result</h1>
-    <img src="{{ file_path }}" alt="Uploaded Image">
-    <p>Predicted: {{ pred_label }}</p>
-    <p>Probability: {{ pred_prob }}</p>
-    <p>Time Prediction: {{ pred_time }} seconds</p>
+    <div class="container">
+        <h1 class="title">Prediction Result</h1>
+        <div class="image-section">
+            <img src="{{ file_path }}" alt="Uploaded Image">
+        </div>
+        <div class="details-section">
+            <p>Predicted: {{ pred_label }}</p>
+            <p>Probability: {{ pred_prob }}</p>
+            <p>Time Prediction: {{ pred_time }} seconds</p>
+        </div>
+    </div>
 </body>
 </html>
