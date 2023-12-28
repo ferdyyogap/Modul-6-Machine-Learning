@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Image Classification</h1>
-    <form action="/predict" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" accept=".jpg, .jpeg, .png" required>
-        <button type="submit">Predict</button>
-    </form>
-    {% if error %}
-        <p class="error">{{ error }}</p>
-    {% endif %}
+    <div class="container">
+        <h1 class="title">Image Classification</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="upload-section">
+                <input type="file" name="file" accept=".jpg, .jpeg, .png" required>
+                <button type="submit">Predict</button>
+            </div>
+        </form>
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
 </body>
 </html>
